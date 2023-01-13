@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class distory : MonoBehaviour
+public class distorythepizza : MonoBehaviour
 {
     private float topBound = 30;
     private float LowerBound = -10;
