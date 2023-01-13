@@ -1002,9 +1002,9 @@ GameObject:
   - component: {fileID: 3060613668980494864}
   - component: {fileID: 3060613668990201140}
   - component: {fileID: 2040610662}
-  - component: {fileID: 2040610663}
   - component: {fileID: 4303406214402169906}
-  - component: {fileID: 6021335773775924238}
+  - component: {fileID: 1912563279}
+  - component: {fileID: -6926772123832929452}
   m_Layer: 0
   m_Name: Animal_Horse_Black
   m_TagString: Untagged
@@ -1066,19 +1066,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 10
---- !u!114 &2040610663
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3060613668980770592}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e818c634c32464bd6a23c81e9b5cd08c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 10
 --- !u!114 &4303406214402169906
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1091,7 +1078,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5ee3fdc6659124e3ba643293b655ff42, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!65 &6021335773775924238
+--- !u!114 &1912563279
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3060613668980770592}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c55c6138230c4318848c75136197282, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!65 &-6926772123832929452
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1099,11 +1098,11 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3060613668980770592}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 0
+  m_IsTrigger: 1
+  m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 13.043975, y: 36.002876, z: 44.39678}
+  m_Center: {x: 1.0215503, y: 17.090115, z: 4.0965867}
 --- !u!1 &3060613668980776918
 GameObject:
   m_ObjectHideFlags: 0
