@@ -4811,8 +4811,8 @@ GameObject:
   - component: {fileID: 2734851377686270291}
   - component: {fileID: 8957087419153737564}
   - component: {fileID: 7861006464099401855}
-  - component: {fileID: 1370009939}
-  - component: {fileID: 959077661453578526}
+  - component: {fileID: 689293487749698727}
+  - component: {fileID: 2074913840}
   m_Layer: 0
   m_Name: Dog_BorderCollie_01
   m_TagString: Untagged
@@ -4904,7 +4904,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e818c634c32464bd6a23c81e9b5cd08c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 5
+  speed: 10
 --- !u!114 &7861006464099401855
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4917,7 +4917,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5ee3fdc6659124e3ba643293b655ff42, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &1370009939
+--- !u!65 &689293487749698727
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2734851377693596907}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 0
+  serializedVersion: 2
+  m_Size: {x: 0.077057645, y: 0.20491153, z: 0.18394507}
+  m_Center: {x: 0.0016968416, y: 0.09802192, z: 0.017485222}
+--- !u!114 &2074913840
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4929,19 +4942,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3c55c6138230c4318848c75136197282, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!65 &959077661453578526
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2734851377693596907}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.101999186, y: 0.22067542, z: 0.26753336}
-  m_Center: {x: -0.0050596097, y: 0.109340645, z: 0.02874875}
 --- !u!1 &2734851377693597443
 GameObject:
   m_ObjectHideFlags: 0
