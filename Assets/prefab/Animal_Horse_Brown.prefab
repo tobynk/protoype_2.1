@@ -168,10 +168,9 @@ GameObject:
   - component: {fileID: 874503710386713413}
   - component: {fileID: 874503710393915733}
   - component: {fileID: 2525125405771527962}
-  - component: {fileID: 8420401199100483060}
   - component: {fileID: 7007295791014112725}
-  - component: {fileID: 9182598128520343090}
-  - component: {fileID: 632863249}
+  - component: {fileID: 1269270329}
+  - component: {fileID: 2301082146370601453}
   m_Layer: 0
   m_Name: Animal_Horse_Brown
   m_TagString: Untagged
@@ -232,20 +231,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e818c634c32464bd6a23c81e9b5cd08c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 10
---- !u!114 &8420401199100483060
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 874503710386492317}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e818c634c32464bd6a23c81e9b5cd08c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 10
+  speed: 5
 --- !u!114 &7007295791014112725
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -258,20 +244,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5ee3fdc6659124e3ba643293b655ff42, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!65 &9182598128520343090
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 874503710386492317}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 0
-  serializedVersion: 2
-  m_Size: {x: 12.767253, y: 35.208504, z: 41.731228}
-  m_Center: {x: 0.8182728, y: 17.104254, z: 5.4082036}
---- !u!114 &632863249
+--- !u!114 &1269270329
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -283,6 +256,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3c55c6138230c4318848c75136197282, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!65 &2301082146370601453
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 874503710386492317}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 19.640541, y: 37.906384, z: 47.823124}
+  m_Center: {x: 1.9247091, y: 18.725807, z: 4.659679}
 --- !u!1 &874503710386495577
 GameObject:
   m_ObjectHideFlags: 0
