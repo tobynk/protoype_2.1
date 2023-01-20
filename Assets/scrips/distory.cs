@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class distorythepizza : MonoBehaviour
+public class distory : MonoBehaviour
 {
     private float topBound = 30;
     private float LowerBound = -10;
@@ -22,6 +22,7 @@ public class distorythepizza : MonoBehaviour
         else if (transform.position.z < LowerBound) 
         {
             Destroy(gameObject);
+            Debug.Log("Game Over!");
         }
 
     }

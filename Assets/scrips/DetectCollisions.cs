@@ -13,12 +13,13 @@ public class DetectCollisions : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        //Debug.Log("HWY WOALIGHDAKJGAJK");
     }
 
-    private void OnTriggerEnter(Collider other)
+    void OnTriggerEnter(Collider other)
     {
         Destroy(gameObject);
         Destroy(other.gameObject);
+        //Debug.Log("ummmmmmm");
     }
 }
