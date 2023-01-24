@@ -362,7 +362,6 @@ GameObject:
   - component: {fileID: 400046}
   - component: {fileID: 9500000}
   - component: {fileID: 332172184}
-  - component: {fileID: 332172187}
   - component: {fileID: 1802788133044288977}
   m_Layer: 0
   m_Name: SimpleFarmer_Woman_01_Black
@@ -427,18 +426,6 @@ MonoBehaviour:
   speed: 10
   xRange: 20
   projectilePrefab: {fileID: 8982554739804596532, guid: e8863dc29765f484ba0fd4c10fdae5bd, type: 3}
---- !u!114 &332172187
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 100046}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3c55c6138230c4318848c75136197282, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!65 &1802788133044288977
 BoxCollider:
   m_ObjectHideFlags: 0
