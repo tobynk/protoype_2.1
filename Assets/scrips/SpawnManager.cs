@@ -18,12 +18,17 @@ public class SpawnManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        
     }
-
     void spawnRandomanimal()
     {
         Vector3 spawnPos =new Vector3(Random.Range(-spwanRangeX, spwanRangeX),0,spwanPosZ);
             int animalInde = Random.Range(0, animalPrefabs.Length);
             Instantiate(animalPrefabs[animalInde], spawnPos, animalPrefabs[animalInde].transform.rotation);
+        
+        spawninterval= Random.Range(0.5f,3.0f);
+
+        Invoke("spawnrandomball",spawninterval);
+        Debug.Log(spawninterval);
     }
 }
